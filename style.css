@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.topic{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.text-primary, .topic p, i{
+    font-family: 微軟正黑體;
+    font-weight: 800;
+    font-size: 28px;  
+    color: cadetblue;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.alert{
+    width: 30rem;
+    margin:0 auto;
+    margin-right: 20rem;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: indianred;
+    color: white;
+}
+.alert-success{
+    background-color: darkseagreen;
+    color: darkgreen;
+}
+
+
+
+.form-group label{
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: cadetblue;
+    padding-right: 10px;
+}
+
+.text1{
+    height: 3rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: teal;
+    border-radius: 10px;
+}
+
+#addthings{
+    margin-left: 4rem;
+}
+#addthings:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+table{
+    margin: 2rem auto;
+    border-top: 1.2px solid teal;
+    border-bottom: 1.2px solid teal;
+}
+
+th{
+    padding: 1rem 8rem;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    color: teal;
+}
+
+
+
+

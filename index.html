@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MyBookList</title>    
+</head>
+<body>
+    <div class="container"> 
+       <div class="topic">
+            <p>
+            <i class="fas fa-book-open"></i> My<span class="text-primary">To-do</span>List
+            </p>
+        </div>
+        <form id="list-form">
+            <div class="form-group">
+                <label>事件</label>
+                <input id="title" class="text1" type="text">
+            </div>
+             <div class="form-group">
+                <label>時間</label>
+                <input id="date" class="text1" type="text">
+            </div>
+             <div class="form-group">
+                <label>地點</label>
+                <input id="place" class="text1" type="text">
+            </div>
+             <div class="form-group">
+               <input id="addthings" class="text1" type="submit" value="新增待辦事項" required>
+            </div>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>事件</th>
+                    <th>時間</th>
+                    <th>地點</th>
+                </tr>
+            </thead>
+            <tbody id="to-dolist"></tbody>
+        </table>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
