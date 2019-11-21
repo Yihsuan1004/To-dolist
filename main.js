@@ -105,7 +105,7 @@ document.querySelector('#list-form').addEventListener('submit',(e)=>{
     const date = document.querySelector('#date').value;
     const place = document.querySelector('#place').value;
   
-    
+    //若這三個欄位有一個為空則跳出警告
     if(title ==='' || date ==='' || place === ''){
         UI.showAlert('請填寫全部的欄位','');
     }
@@ -127,6 +127,7 @@ document.querySelector('#list-form').addEventListener('submit',(e)=>{
 });
 
 
+//移除已新增至列表的事項
 document.querySelector('#to-dolist').addEventListener('click',(e)=>{
     //Remove schedule from UI
     UI.deleteSchedule(e.target);
